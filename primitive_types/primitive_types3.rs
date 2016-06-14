@@ -1,8 +1,8 @@
-// Create an array with at least 100 elements in it where the ??? is. 
+// Create an array with at least 100 elements in it where the ??? is.
 // Scroll down for hints!
 
 fn main() {
-    let a = ???
+    let a = [0;500];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
@@ -37,7 +37,7 @@ fn main() {
 
 
 
-// There's a shorthand to initialize Arrays with a certain size that does not 
+// There's a shorthand to initialize Arrays with a certain size that does not
 // require you to type in 100 items (but you certainly can if you want!)
 // Check out the Primitive Types -> Arrays section of the book:
 // http://doc.rust-lang.org/stable/book/primitive-types.html#arrays
